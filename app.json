@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TgCatUB/catuserbot",
+  "repository": "https://github.com/rahimx/Private-UB",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -53,7 +53,7 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Dhaka",
       "required": false
     },
     "EXTERNAL_REPO": {
@@ -65,12 +65,6 @@
       "description": "set 'True' to install 18+ plugins.",
       "value": "False",
       "required": false
-    }
-  },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
     }
   }],
   "buildpacks": [{
